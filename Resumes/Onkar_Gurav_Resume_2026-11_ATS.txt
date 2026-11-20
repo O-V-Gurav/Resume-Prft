@@ -1,0 +1,115 @@
+ONKAR GURAV
+Generative AI & Agentic AI Engineer | RAG, Multi-Agent Systems, LLM Platforms
+onkarvishalgurav@gmail.com | +91 7263085300 | Pune, India
+linkedin.com/in/onkar-gurav-560a02276 | github.com/OVGurav
+
+PROFESSIONAL SUMMARY
+Generative AI and agentic AI engineer with ~3 years across data, ML and GenAI roles, including 1+ year at Perficient building multi-agent systems, RAG pipelines and LLM tooling for a U.S. healthcare payer and an internal AI-native SDLC/QA platform. Covers BPMN process discovery, agent design (Google ADK, LangGraph, LangChain, n8n, MCP), hybrid retrieval and evaluation, FastAPI/Next.js delivery and human-in-the-loop controls, with domain depth in X12 EDI. Certified n8n Expert Partner, OCI Generative AI Professional and Perficient L3 AI-Native SDLC Architecture; builds with Claude Code and spec-driven workflows. Delivered GenAI and automation solutions across healthcare, technology consulting, travel and retail, including MSO optimization and patient-centric epilepsy care.
+
+CORE SKILLS
+Agentic AI & LLMs: LLMs, multi-agent orchestration, Google ADK, LangGraph, LangChain, LlamaIndex, CrewAI, Model Context Protocol (MCP), tool calling, prompt engineering, context engineering, structured outputs, human-in-the-loop, deterministic multi-step LLM orchestration, spec-driven development, agentic coding tools (Claude Code, GitHub Copilot)
+RAG & Evaluation: Retrieval-Augmented Generation (RAG), vector database (ChromaDB), semantic search, hybrid search (BM25 + dense, reciprocal rank fusion), embeddings, reranking, RAGAS, DeepEval, LLM-as-a-judge, chunking and retrieval strategies, MMR, query expansion
+Models & Gateways: Large Language Models (LLMs) – Claude (Anthropic), Azure OpenAI / OpenAI (GPT-4o, Whisper), Google Gemini (Vertex AI), Hugging Face, Portkey, LiteLLM, Gemma, OPUS-MT, Ollama and LM Studio (local LLMs)
+Engineering: Python, JavaScript (ES6+), SQL, FastAPI, Flask, Next.js, React, Node.js, Playwright test automation, SQLAlchemy, asyncio, REST APIs, pytest, Docker, Git, Django, Streamlit, HTML5/CSS3, Tailwind CSS, vanilla JavaScript, Alembic, Pillow, OpenCV, Mediapipe
+Automation & Integration: n8n, BPMN 2.0 (draw.io), ServiceNow, Splunk, Jira, Google Workspace APIs, webhooks, Teamwork API, SMTP, Cron scheduling, LangFlow, Flowise, Make AI, Writer AI, Oracle Fusion AI Agent Studio
+Data & Cloud: PostgreSQL, SQLite, Pandas, Power BI, Tableau, AWS (S3), Azure, Oracle Cloud Infrastructure (OCI), Supabase, Better-SQLite3, Excel, NumPy, Matplotlib, Seaborn, Scikit-learn, TensorFlow, LSTM time series, feature engineering, hyperparameter tuning
+Domain: Healthcare payer operations, X12 EDI (837, 835, 820, 270/271, 276/277), claims processing, PII masking, incident management (ITSM), SOP and knowledge transfer (KT) documentation, healthcare fundamentals; industries: Technology Consulting, Travel & Tourism, Retail (e-commerce tracking), Food & Beverage; solutions: workflow automation, RAG, predictive modeling, sentiment analysis, business intelligence
+
+PROFESSIONAL EXPERIENCE
+Associate Technical Consultant – AI Agentic Platforms Delivery | Jan 2026 – Present
+Perficient | Chennai, India
+[AI-Native SDLC & QA Platform (internal accelerator; Next.js 16, React 19, FastAPI)]
+- Built the Concept-to-Design engine (FastAPI, Portkey, Claude on AWS Bedrock): a two-stage multimodal pipeline turns goals, user stories and screenshots into structured briefs, then editable multi-page Pencil designs with JPEG previews; 10-endpoint async API, Next.js review UI, fallback chain and Docker packaging.
+- Iterated generation through four integrations – stdio MCP client, Claude Code CLI as MCP host, Penpot agent loop, single-call structured JSON – and kept the dependency-free one so containers need no desktop tools.
+- Delivered the AI visual testing workflow (UI and API integration): human approve/reject gate for AI-generated Playwright + Percy scripts, build polling with PDF evidence retry, and cross-device diff reports across 6 device profiles.
+- Integrated accessibility (axe-core, WCAG A/AA/AAA, bulk scans) and performance (Lighthouse with AI Priority Fixes: ranked remediations with predicted score gain) services into the platform UI; extended AI test case generation with smoke/regression tagging (~15% of the initial 24k-line front end).
+- Contributed to the platform's AI agents for test case generation, test script generation, automation framework generation and PII masking (test-lifecycle half of the platform).
+[Healthcare Payer Engagement (U.S. payer client)]
+- Modeled 9 payer workflows (X12 820/837, 27X monitoring, incident triage) as BPMN 2.0 swimlanes – 170+ steps, 50+ decision gateways; redesigned 27X monitoring with an agent lane taking 12 of 15 non-system steps under explicit rules (retry cap, SLA and error-code checks).
+- Authored the EDI 835 remittance checkout SOP and to-be design (28 steps, 7 decision gates, 6 systems); drove discovery with 140+ logged clarification questions, cut the design from 4 phases to 3, and produced a 25-document KT package (~56k words).
+- Architected a multi-agent EDI 837 checkout system: orchestrator plus 5 specialist agents over 20 tools and 24 skills (asyncio fan-out/fan-in, YAML-driven rules, 15 PASS/FAIL checks); prototyped on mock data with a Gemini function-calling agent.
+- Developed the EDI 835 health-check automation (Python, Playwright, Splunk, Jira, S3/PostgreSQL): 3 gated phases, ~28 severity-ranked alerts, 8-sheet Excel report and false-pass-resistant Splunk validation; hardened via a 14-agent AI code review (37 findings, 27 confirmed).
+- Implemented three Google ADK agent workflows on Gemini 2.5 Flash/Vision with Pydantic contracts: a 14-node incident-triage graph with human-in-the-loop closure, SSO-outage verification, and Splunk alert thresholding (4 parallel time windows), integrated with ServiceNow using PHI-free incident templates.
+- Engineered a RAG incident classifier (Google ADK, ChromaDB, Azure OpenAI embeddings, Gemini 2.5 Flash): hybrid BM25 + dense retrieval with weighted rank fusion, LLM query expansion and a 0.60 abstention gate over a 400-ticket, 81-tag knowledge base; file-lock-safe ServiceNow poller, FastAPI, LLM-as-judge evaluation harness.
+- Prototyped an earlier RAG classification pipeline (PHI-masked chunking, MMR, LLM reranking) and a 3-agent ADK demo with regex PII scrubbing, ServiceNow write-back and a Streamlit approval UI.
+- Prototyped an email-to-incident agent (Claude tool-calling, TF-IDF deduplication, ServiceNow Table API); wrote its BRD and Azure target architecture.
+- Created a token-cost and automation-ROI calculator (vanilla JS, Chart.js) from a 30-incident, 91-day baseline.
+[AI in MSO – RAG Support Ecosystem & SLA Automation (Perficient MSO / learning platform)]
+- Created a bilingual English-Spanish RAG chatbot for Perficient's learning platform (Azure OpenAI GPT-4o-mini, ChromaDB) with LangGraph orchestration, a 3-tier translation fallback (Gemma 4B, OPUS-MT, Portkey), session persistence, Teamwork/n8n ticket escalation and an admin analytics dashboard.
+- Implemented the translation service (gemmaTranslation.js): heuristic routing across Gemma 4B, OPUS-MT (local fallback) and Portkey (cloud fallback) with context-preserving consistency for technical jargon.
+- Wrote a dependency-free client (vanilla JS, no React/Vue): async state module for chat streams and message sequencing, language-aware UI, and local session caching with server sync across refreshes and restarts.
+- Added proactive escalation (monitor detects complex queries or long sessions and opens tickets via Teamwork API or n8n webhooks) and an admin dashboard (Tailwind CSS, vanilla JS) for session health, sentiment and retrieval accuracy.
+- Architected an n8n MSO incident and SLA-compliance pipeline with embedded AI agents for autonomous decisions and escalation: Cron SLA monitoring, shift-code parsing (S1-S4), Sheets sync, deduplication, HTML alerts.
+- Engineered heuristics that parse unstructured time ranges ('3pm - 11pm') into shift codes S1-S4 to map incidents to rosters; merged several Google Sheets databases into one reporting view; JavaScript-Set deduplication and validation schemas.
+
+Technical Consulting Intern – Gen/Agentic AI | Aug 2025 – Dec 2025
+Perficient | Chennai, India
+- Primary n8n automation lead: AI-driven workflows and data pipelines; prototyped high-concurrency multi-agent orchestration (LangFlow, Flowise; Slack/email approvals) and RAG bots with LangGraph and LlamaIndex.
+- AI Claims Platform (visual inspection): Gemini 1.5 Flash image classification, including vehicle orientation, with Tenengrad CV quality validation – cut manual categorization time by 90%.
+- Intelligent Ticket Bot: Teamwork and ServiceNow via LangChain, OpenAI GPT-4 and Hugging Face – ticket creation, intent triage, P1-P4 priority tagging and API routing – reduced manual intervention by 85%.
+- Voice-Enabled Claims Portal: OpenAI Whisper speech-to-text with complex metadata tagging and ChromaDB semantic retrieval of claim evidence – reduced manual data entry by 70%.
+- Deployed an automated support bot: n8n workflow connecting OpenAI, Teamwork and ServiceNow with LlamaIndex RAG over knowledge bases for accurate support answers.
+- Engineered RAG pipelines (embeddings, data chunking, retrieval strategies) and integrated APIs, LLMs and vector stores into end-to-end GenAI solutions.
+- Executed full-stack tasks (responsive front-end components, backend APIs connecting UIs to AI logic) and worked closely with senior consultants to turn business requirements into scalable systems.
+
+Junior Data Analyst | Feb 2024 – Aug 2025
+ExpertSource Global Services Pvt Ltd | Navi Mumbai, India
+- Improved team efficiency by 25% by identifying workflow bottlenecks and implementing process improvements.
+- Led a team delivering the Enhanced Data Operations project on time and within budget; used data analysis, SQL and Power BI visualization to support stakeholder decisions.
+- Applied critical thinking and problem-solving to database queries and team coordination.
+
+Machine Learning Intern | Oct 2023 – Nov 2023
+Bharat Intern | Remote, India
+- Developed, expanded and optimized classification and regression models with Scikit-learn and TensorFlow; improved accuracy through cross-validation and hyperparameter tuning; collaborated with teams to deliver ML solutions.
+- Projects: Iris flower classification (SVM), house price prediction, wine quality prediction.
+
+Data Science Intern | Sep 2023 – Oct 2023
+Bharat Intern | Remote, India
+- Performed data preprocessing, feature engineering and model evaluation on real-world datasets while building and optimizing ML models (Scikit-learn, TensorFlow).
+- Projects: stock market forecasting (LSTM, AAPL), Titanic survival prediction, number recognition.
+
+SELECTED PROJECTS
+StockSense AI – AI-assisted equity intelligence backend | Personal project, Jun 2026
+- Specified and directed a spec-driven, AI-assisted build in 3 days: FastAPI / SQLAlchemy / Alembic / APScheduler backend with 13 REST endpoints, 9 market-gated jobs, 9 tables and 67 pytest tests; two-stage news-to-stock correlation (rules, then Claude via Portkey) with ticker-whitelist validation against hallucination and SHA-256 deduplication.
+
+ITAS-WAR – Integrated Travel Assistant with Weather & Apparel Recommendation | B.E. main project, 2025
+- Built a generative-AI travel assistant (Google Gemini, Google Maps API, weather APIs, Python): personalized itineraries, real-time route mapping, live weather alerts and apparel recommendations; basis of a published paper.
+- Published research paper "Enhancing Travel Itinerary Planning with Generative AI and Real-Time Weather" (Saraswati College of Engineering, Mumbai University, 2025).
+
+Amazon Price Tracker with Email Alerts | Personal project | Retail / e-commerce tracking
+- Python price monitor: web scraping plus SMTP email alerts at a configurable price threshold.
+
+Human Background Remover – computer vision web app | Personal project
+- Flask app using Mediapipe selfie segmentation and OpenCV with Gaussian-blur edge smoothing; exports transparent RGBA PNGs.
+
+EDUCATION
+Bachelor of Engineering, Computer Science & Engineering (Data Science) | Saraswati College of Engineering, Mumbai University | 2021 – May 2025 | CGPA 7.34 | HSC 89.00% | SSC 86.40%
+
+CERTIFICATIONS
+- Perficient L3 – AI Native SDLC Architecture (Oct 2026): deterministic LLM programming, multi-agent orchestration patterns, custom MCP servers, AI governance and security
+- Perficient L2 – Agentic SDLC & STLC (Oct 2026): agents with memory and tools, evaluating model behavior, operating agentic systems through failure and recovery
+- Perficient L1 – AI Augmented SDLC & STLC (Sep 2026): prompt and context engineering, spec-driven workflows, agentic coding tools on MCP
+- n8n Certified Expert Partner – n8n GmbH (Jan 28, 2026 – Jan 28, 2028)
+- Oracle Cloud Infrastructure 2025 Generative AI Professional (1Z0-1127-25) – Oracle
+- Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate – Oracle (Dec 31, 2025; valid to Dec 31, 2027)
+- Oracle Fusion AI Agent Studio Certified Foundations Associate – Oracle (Dec 2025)
+- AI Agents & AI Automation – The Practical Agentic AI Guide – Udemy (Oct 2025)
+- Local LLMs via Ollama & LM Studio – The Practical Guide – Udemy (Dec 2025)
+- GitHub Copilot – The Complete Guide – 2025 – Udemy (Dec 2025)
+- The AI Ethics Course 2025: Work with AI Responsibly – Udemy (Oct 2025)
+- Generative AI for Beginners – Udemy (Sep 2025)
+- Mastering Healthcare Fundamentals – Udemy (Mar 2026)
+- Complete Data Science, Machine Learning, DL, NLP Bootcamp – Udemy (Oct 2024)
+- Google Data Analytics – Google / Coursera
+- Data Science with Deep Learning and Ethical Hacking – IIT Bombay (Aavhan), Sep 2023
+- Career Essentials in Generative AI – Microsoft & LinkedIn (Aug 2023)
+- Streamlining Your Work with Microsoft Bing Chat and Introduction to Artificial Intelligence – LinkedIn Learning (Aug 2023)
+
+PUBLICATIONS
+- "Enhancing Travel Itinerary Planning with Generative AI and Real-Time Weather" – Saraswati College of Engineering, 2025
+- "Data Leveraging TextBlob and Twitter API for Sentiment Analysis: A Comprehensive Study of Methodologies and Applications" – Saraswati College of Engineering, 2025
+
+LEADERSHIP & LANGUAGES
+- Cultural Head, Saraswati College of Engineering (2 years): led college-wide cultural events and inter-college activities
+- Music Club Head, Saraswati College of Engineering (1 year): managed club operations, events and member coordination
+- Languages: English (professional), Hindi (native), Marathi (native). Interests: guitar and vocals, adventure trekking
